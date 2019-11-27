@@ -28,7 +28,7 @@ html{
 
 .hero-section .name>h1 {
     color: #fff;
-    font-size: 65px;
+    font-size: 60px;
 }
 
 .hero-section .name>h1>span {
@@ -42,9 +42,9 @@ html{
 .hero-section .view-button>a {
     text-decoration: none;
     color: #fff;
-    padding: 20px 30px;
+    padding: 15px 30px;
     border: 2.5px solid;
-    font-size: 1.7em;
+    font-size: 1.5em;
     margin-right: 20px;
     transition: 300ms;
 }
@@ -156,7 +156,9 @@ html{
     align-items: center;
     position: relative;
 }
-
+.about-me .skill-section .svg>svg{
+    height: 190px;
+}
 .about-me .skill-section .svg>h1 {
     font-size: 36px;
     font-weight: 600;
@@ -165,14 +167,15 @@ html{
 
 .about-me .skill-section .svg>p {
     text-align: center;
-    font-size: 26px;
+    font-size: 23px;
     color: #7b7b7b;
 }
 
 .about-me .dynamic>i {
     /* width: 30px; */
     position: absolute;
-    top: 80px;
+    top: 65px;
+    font-size: 50px;
     color: #fff;
     /* left: 42%; */
 }
@@ -180,7 +183,7 @@ html{
 /* about-me end */
 .skill {
     display: flex;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .skill .me {
@@ -366,7 +369,7 @@ html{
     justify-content: center;
     align-items: center;
     visibility: hidden;
-    transition: 200ms;
+    /* transition: 200ms; */
 }
 
 
