@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SHANTO</title>
-    <!-- css -->
-    <link rel="stylesheet" href="./asset/style.css">
+    
     <!-- responsive css -->
     <link rel="stylesheet" href="./asset/responsive.css">
     <!-- font-awesome -->
@@ -18,20 +17,23 @@
     <link rel="stylesheet" href="./asset/Bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./asset/Bootstrap/js/bootstrap.js">
     <!-- JavaScript -->
+    <link rel="stylesheet" href="./asset/animate.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./asset/style.css">
     <script src=""></script>
 </head>
 
 <body>
 
     <div class="wrapper">
-        <div id="top" class="hero-section">
-            <div class="name">
+        <div id="top" class="hero-section ">
+            <div class="name wow fadeInDown">
                 <h1>
                     Hello,I'am <span> Shanto Rahman</span>. <br> I'm a full stack Web developer.
                 </h1>
             </div>
 
-            <div class="view-button">
+            <div class="view-button wow pulse">
                 <a href="#job">View My work <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
@@ -55,8 +57,8 @@
                 <h1>ABOUT</h1>
             </div>
 
-            <div class="skill-section">
-                <div class="dynamic svg">
+            <div class="skill-section ">
+                <div class="dynamic svg wow fadeInLeft">
                     <i class="fas fa-tachometer-alt fa-4x"></i>
                     <svg width="227" height="236" viewBox="0 0 227 236" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -67,7 +69,7 @@
                     <p>Fast load times and lag free interaction, my highest priority.</p>
                 </div>
 
-                <div class="dynamic svg">
+                <div class="dynamic svg wow fadeInLeft">
                     <i class="fas fa-laptop fa-4x"></i>
                     <svg width="227" height="236" viewBox="0 0 227 236" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -78,7 +80,7 @@
                     <p>My layouts will work on any device, big or small.</p>
                 </div>
 
-                <div class="dynamic svg">
+                <div class="dynamic svg wow fadeInRight">
                     <i class="far fa-lightbulb fa-4x"></i>
                     <svg width="227" height="236" viewBox="0 0 227 236" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -89,7 +91,7 @@
                     <p>Strong preference for easy to use, intuitive UX/UI.</p>
                 </div>
 
-                <div class="dynamic svg">
+                <div class="dynamic svg wow fadeInRight">
                     <i class="fas fa-rocket fa-4x"></i>
                     <svg width="227" height="236" viewBox="0 0 227 236" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -105,11 +107,11 @@
         <!-- about-me end -->
 
         <div id="about"  class="skill middel">
-            <div class="me">
+            <div class="me wow fadeInUpBig">
                 <div class="image">
                     <img src="./asset/images/me.png" alt="">
                 </div>
-                <div class="about">
+                <div class="about ">
                     <h1>Who's this guy?</h1>
                     <p>I'm the Front-End Developer for <span>EyeCue Lab</span> in Portland, OR.
                         I have serious passion for UI effects, animations and creating intuitive, dynamic user
@@ -117,7 +119,7 @@
                 </div>
             </div>
 
-            <div class="skill-lebel">
+            <div class="skill-lebel wow fadeInDownBig">
                 <div class="progress">
                     <p>CSS3</p>
                     <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%"
@@ -354,6 +356,11 @@
 
 
     </div>
+
+    <script src="./asset/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
